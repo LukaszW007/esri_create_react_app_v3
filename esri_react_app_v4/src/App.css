@@ -1,0 +1,43 @@
+html,
+body {
+  position: fixed;
+  overflow: hidden; }
+
+html, body, #root, .App {
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #cfcfd4; }
+
+.App-header {
+  text-align: center;
+  background-color: #222;
+  height: 50px;
+  line-height: 50px;
+  color: orange;
+  box-sizing: border-box; }
+
+h1 {
+  margin: 0; }
+
+  
+  #sceneContainer {
+    height: calc(100% - 50px);
+    width: 100vw;
+    background: rgb(0,0,0);
+  }
+
+  #uploadForm {
+    position: absolute;
+    font-size: 0.8em;
+    font-family: monospace, sans-serif;
+    top: 50px;
+    left: 60px;
+    background: #242424;
+    padding: 6px;
+    color: #69dcff;
+  }
